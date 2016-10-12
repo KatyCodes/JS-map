@@ -7,9 +7,15 @@
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>Portlandify</title>
   </head>
-  <body class="container">
-    <h1>Basic example</h1>
-    <button id="locateUser">Get Location</button>
+  <body>
+    <h1>Where you at?</h1>
+    <button id="locate_User">Get Location</button>
+    <form id="user_input" action="index.html">
+  <h3>Enter your coordinates</h3>
+      <input type="number" id="latitude" value="">
+      <input type="number" id="longitude" value="">
+      <button type="submit" name="button">Submit</button>
+    </form>
     <div id="map"></div>
   </body>
 </html>
