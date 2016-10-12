@@ -3,7 +3,7 @@
   "description": "",
   "main": "index.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/rloos289/template_js_gulp_bower",
   "ignore": [
     "**/.*",
     "node_modules",
